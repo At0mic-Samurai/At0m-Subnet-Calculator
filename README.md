@@ -43,7 +43,15 @@
 
 ### 🐧 Linux
 
-A ready-to-run Linux binary is not available yet. For now, run it from source (see below).
+1. Go to the [**latest release**](https://github.com/At0mic-Samurai/At0m-Subnet-Calculator/releases/latest).
+2. Download **`At0mSubnet-Linux`**.
+3. Open a terminal in the folder where you downloaded it, make it executable and run it:
+   ```bash
+   chmod +x At0mSubnet-Linux
+   ./At0mSubnet-Linux
+   ```
+
+> 💡 It needs a graphical desktop session. The binary was built on Kali Linux and should run on recent distributions. If it doesn't work on yours, run it from source (see below).
 
 ## 🛠️ Run from source
 
