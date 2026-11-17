@@ -101,7 +101,18 @@ Want to package it yourself? Use [PyInstaller](https://pyinstaller.org/):
 
 ```bash
 pip install pyinstaller
-pyinstaller --onefile --windowed --name At0mSubnet at0m_subnet_calculator.py
+```
+
+🪟 **Windows** (includes the app icon):
+
+```bash
+pyinstaller --onefile --windowed --name At0mSubnet --icon At0mSubnet.ico at0m_subnet_calculator.py
+```
+
+🐧 **Linux:**
+
+```bash
+pyinstaller --onefile --name At0mSubnet at0m_subnet_calculator.py
 ```
 
 The executable will be in the `dist/` folder.

@@ -4,6 +4,8 @@ import ipaddress
 import math
 import tkinter as tk
 
+from at0m_icon_data import ICON_PNG_B64
+
 # ---------- Tema ----------
 BG = "#0a0a0f"
 PANEL = "#12121a"
@@ -170,6 +172,11 @@ class SubnetCalculatorApp(tk.Tk):
     def __init__(self):
         super().__init__()
         self.title(NOMBRE_APP)
+        try:  # ícono de la ventana y de la barra de tareas
+            self.icono_ventana = tk.PhotoImage(data=ICON_PNG_B64)
+            self.iconphoto(True, self.icono_ventana)
+        except tk.TclError:
+            pass  # si el sistema no lo soporta, la app sigue funcionando sin ícono
         self.configure(bg=BG)
         self.resizable(False, False)
 
