@@ -35,7 +35,7 @@
 
 ### 🪟 Windows
 
-1. Go to the [**latest release**](https://github.com/At0mic-Samurai/At0mSubnet/releases/latest).
+1. Go to the [**latest release**](https://github.com/At0mic-Samurai/At0m-Subnet-Calculator/releases/latest).
 2. Download **`At0mSubnet.exe`**.
 3. Double-click it. That's it.
 
@@ -58,8 +58,8 @@ You need **Python 3.8+** with **tkinter**:
 Then clone the repo and run it:
 
 ```bash
-git clone https://github.com/At0mic-Samurai/At0mSubnet.git
-cd At0mSubnet
+git clone https://github.com/At0mic-Samurai/At0m-Subnet-Calculator.git
+cd At0m-Subnet-Calculator
 python at0m_subnet_calculator.py
 ```
 
