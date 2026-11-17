@@ -48,7 +48,7 @@
 3. Open a terminal in the folder where you downloaded it (Downloads usually), make it executable and run it form any location:
    ```bash
    chmod +x At0mSubnet-Linux
-   cp At0mSubnet-Linux at0m_subnet
+   mv At0mSubnet-Linux at0m_subnet
    sudo mv at0m_subnet /usr/bin/
    at0m_subnet
    ```
