@@ -45,7 +45,7 @@
 
 1. Go to the [**latest release**](https://github.com/At0mic-Samurai/At0m-Subnet-Calculator/releases/latest).
 2. Download **`At0mSubnet-Linux`**.
-3. Open a terminal in the folder where you downloaded it (Downloads usually), make it executable and run it form any location:
+3. Open a terminal in the folder where you downloaded it (Downloads usually), make it executable and run it from any location:
    ```bash
    chmod +x At0mSubnet-Linux
    mv At0mSubnet-Linux at0m_subnet
