@@ -20,6 +20,9 @@
 
 **At0mSubnet** is a desktop app that does the subnetting math for you. Type an IP address and a CIDR prefix, hit **CALCULATE**, and get everything you need in a hacker-style dark UI. No browser, no internet, no dependencies beyond Python's standard library.
 
+<img width="576" height="659" alt="imagen" src="https://github.com/user-attachments/assets/f63222b4-fbb6-4ee9-bf0e-91d07e41d821" />
+
+
 ## ✨ Features
 
 - 🧮 **Full subnet breakdown:** Network ID, subnet mask (decimal and binary), wildcard mask, broadcast address, usable host range and number of usable hosts
